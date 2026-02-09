@@ -1,5 +1,5 @@
 {
-  "name": "@udfr/vue-hooks-form-without-lodash-unset",
+  "name": "vue-hooks-form-without-lodash-unset",
   "version": "1.0.0",
   "description": "Vue Composition API for validating form (without lodash.unset dependency).",
   "author": "Yudi Fathurrahman",
