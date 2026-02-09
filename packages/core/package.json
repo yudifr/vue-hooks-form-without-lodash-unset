@@ -1,16 +1,16 @@
 {
-  "name": "@vue-hooks-form/core",
-  "version": "0.0.19",
-  "description": "Vue Composition API for validating form.",
-  "author": "Elone Hoo <hi@elonehoo.me>",
+  "name": "@yudif/vue-hooks-form-core",
+  "version": "1.0.0",
+  "description": "Vue Composition API for validating form (without lodash.unset dependency).",
+  "author": "Yudi Fathurrahman",
   "license": "MIT",
-  "homepage": "https://github.com/elonehoo/vue-hooks-form#readme",
+  "homepage": "https://github.com/yudifr/vue-hooks-form-without-lodash-unset#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/vue-hooks-form.git"
+    "url": "git+https://github.com/yudifr/vue-hooks-form-without-lodash-unset.git"
   },
   "bugs": {
-    "url": "https://github.com/elonehoo/vue-hooks-form/issues"
+    "url": "https://github.com/yudifr/vue-hooks-form-without-lodash-unset/issues"
   },
   "keywords": [
     "composition",
@@ -39,12 +39,10 @@
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
-    "lodash.setwith": "^4.3.2",
-    "lodash.unset": "^4.5.2"
+    "lodash.setwith": "^4.3.2"
   },
   "devDependencies": {
     "@types/lodash.get": "^4.4.9",
-    "@types/lodash.setwith": "^4.3.9",
-    "@types/lodash.unset": "^4.5.9"
+    "@types/lodash.setwith": "^4.3.9"
   }
 }
