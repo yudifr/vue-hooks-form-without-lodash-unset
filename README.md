@@ -3,20 +3,12 @@
 </div>
 
 <h1 align="center">
-  vue-hooks-form
+  vue-hooks-form-without-lodash-unset
 </h1>
 
  <p align="center">
-Inspired by <a href="https://github.com/react-hook-form/react-hook-form">react-hook-form</a>, if you love react-hook-form usage, come on and try it!
+  Forked from  <a href="https://github.com/vue-hooks-form/vue-hooks-form">vue-hooks-form</a>
 <p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/@vue-hooks-form/core"><img src="https://img.shields.io/npm/v/@vue-hooks-form/core?color=43B36B&label="></a>
-</p>
-
-<p align="center">
- <a href="https://form.elonehoo.me">Documentation</a> | <a href="https://form.elonehoo.me/guide/">Getting Started</a> | <a href="https://stackblitz.com/edit/vue-hooks-form?file=src/App.vue">Playground</a>
-</p>
 
 <br>
 <br>
@@ -29,28 +21,28 @@ Inspired by <a href="https://github.com/react-hook-form/react-hook-form">react-h
 
 ```vue
 <script setup lang="ts">
-import { useForm } from '@vue-hooks-form/core'
+import { useForm } from "@vue-hooks-form/core";
 interface Inputs {
-  username: string
+  username: string;
 }
 const {
   register,
   formState: { errors },
   handleSubmit,
-} = useForm<Inputs>()
+} = useForm<Inputs>();
 </script>
 
 <template>
   errors: {{ errors }}
   <form @submit.prevent="handleSubmit()()">
     <input
-      :="register('username', {
-        required: 'username field cannot be empty!'
-      })"
-    >
-    <button type="submit">
-      submit
-    </button>
+      :="
+        register('username', {
+          required: 'username field cannot be empty!',
+        })
+      "
+    />
+    <button type="submit">submit</button>
   </form>
 </template>
 ```
