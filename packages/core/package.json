@@ -1,6 +1,6 @@
 {
   "name": "@yudif/vue-hooks-form-core",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Vue Composition API for validating form (without lodash.unset dependency).",
   "author": "Yudi Fathurrahman",
   "license": "MIT",
